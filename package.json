@@ -1,5 +1,5 @@
 {
-  "name": "nodeApp_with_Docker",
+  "name": "nodeapp_with_docker",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Ademola Hussain",
