@@ -1,11 +1,10 @@
 import express from 'express';
+import routes from './route';
 
 const PORT = 3333;
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send({ message: 'Our app runs even with nodemon!!!' });
-});
+routes(app);
 
 app.listen(PORT, (error) => {
   if (error) {
