@@ -4,6 +4,8 @@ import routes from './route';
 const PORT = 3333;
 const app = express();
 
+app.set('x-powered-by', false);
+
 routes(app);
 
 app.listen(PORT, (error) => {
